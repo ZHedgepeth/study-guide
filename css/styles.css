@@ -1,0 +1,14 @@
+body {
+  color: #191970;
+  background-color: #dcdcdc;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  color: #191970;
+  background-color: #b0c4de;
+  float: center;
+}

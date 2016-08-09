@@ -1,0 +1,29 @@
+$(document).ready(function(){
+  $("button#answer1-1").click(function(){
+    $(".unstyled1").prepend("<li>Correct!</li>")
+  });
+  $("button#answer1-2").click(function(){
+    $(".unstyled1").prepend("<li>Incorrect!</li>")
+  });
+  $("button#answer1-3").click(function(){
+    $(".unstyled1").prepend("<li>Incorrect!</li>")
+  });
+  $("button#answer2-1").click(function(){
+    $(".unstyled2").prepend("<li>Incorrect!</li>")
+  });
+  $("button#answer2-2").click(function(){
+    $(".unstyled2").prepend("<li>Correct!</li>")
+  });
+  $("button#answer2-3").click(function(){
+    $(".unstyled2").prepend("<li>Incorrect!</li>")
+  });
+  $("button#answer3-1").click(function(){
+    $(".unstyled3").prepend("<li>Incorrect!</li>")
+  });
+  $("button#answer3-2").click(function(){
+    $(".unstyled3").prepend("<li>Incorrect!</li>")
+  });
+  $("button#answer3-3").click(function(){
+    $(".unstyled3").prepend("<li>Correct!</li>")
+  });
+});
